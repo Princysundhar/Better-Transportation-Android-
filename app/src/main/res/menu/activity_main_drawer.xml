@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ViewWorker"
+            android:icon="@drawable/worker"
+            android:title="View Worker" />
+
+        <item
+            android:id="@+id/nav_RequestStatus"
+            android:icon="@drawable/personal"
+            android:title=" Request Status" />
+
+        <item
+            android:id="@+id/nav_SendFeedback"
+            android:icon="@drawable/ic_baseline_feedback_24"
+            android:title="Send Feedback" />
+
+        <item
+            android:id="@+id/nav_ViewReply"
+            android:icon="@drawable/complain"
+            android:title="Complaint" />
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/complain"
+            android:title="Request History" />
+
+
+
+
+
+        <item
+            android:id="@+id/nav_CreditPoints"
+            android:icon="@drawable/ic_baseline_currency_exchange_24"
+            android:title="Credit Points" />
+
+        <item
+            android:id="@+id/nav_ChangePassword"
+            android:icon="@drawable/password"
+            android:title="Change Password" />
+
+        <item
+            android:id="@+id/nav_Logout"
+            android:icon="@drawable/power"
+            android:title="Logout" />
+
+
+
+    </group>
+</menu>
